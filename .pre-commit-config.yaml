@@ -1,6 +1,8 @@
 repos:
-- repo: git@github.com:uder/terraform-learning-module-ec2.git
-  rev: 85c346ba0d1b4cfa139ede0f0d01eb32c96b4878
+- repo: https://github.com/antonbabenko/pre-commit-terraform
+  rev: v1.77.0
   hooks:
     - id: terraform_fmt
+    - id: terraform_checkov
+    - id: terraform_tfsec
     - id: terraform_docs
