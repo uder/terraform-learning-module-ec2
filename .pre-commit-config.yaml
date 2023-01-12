@@ -1,0 +1,6 @@
+repos:
+- repo: git@github.com:uder/terraform-learning-module-ec2.git
+  rev: 85c346ba0d1b4cfa139ede0f0d01eb32c96b4878
+  hooks:
+    - id: terraform_fmt
+    - id: terraform_docs
